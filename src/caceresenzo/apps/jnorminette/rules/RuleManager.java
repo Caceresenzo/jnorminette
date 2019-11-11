@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 import caceresenzo.apps.jnorminette.rules.errors.NorminetteError;
+import caceresenzo.apps.jnorminette.rules.implementations.AlignementRule;
 import caceresenzo.apps.jnorminette.rules.implementations.CommaRule;
 
 public class RuleManager {
@@ -24,6 +25,7 @@ public class RuleManager {
 	}
 	
 	private void initialize() {
+		registerRule(new AlignementRule());
 		registerRule(new CommaRule());
 	}
 	

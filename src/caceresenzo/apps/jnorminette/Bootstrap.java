@@ -6,6 +6,7 @@ import java.nio.file.Files;
 import java.util.List;
 
 import caceresenzo.apps.jnorminette.rules.RuleManager;
+import caceresenzo.apps.jnorminette.utils.ColumnUtils;
 
 public class Bootstrap {
 
