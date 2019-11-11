@@ -27,7 +27,7 @@ public class CommaRule extends AbstractRule {
 			
 			RegexUtils.forAllMatches(COMA_SPACE_BEFORE_PATTERN, line, (matcher) -> {
 				String spaces = matcher.group(1);
-				int column = ColumnUtils.computeColumn(line, matcher.start(), -spaces.length());
+				int column = ColumnUtils.computeLength(line, matcher.start(), -spaces.length());
 				
 				if (spaces.length() != 0) {
 					notifyError("space before coma", lineNumber, column);
@@ -36,7 +36,7 @@ public class CommaRule extends AbstractRule {
 			
 			RegexUtils.forAllMatches(COMA_SPACE_AFTER_PATTERN, line, (matcher) -> {
 				String spaces = matcher.group(1);
-				int column = ColumnUtils.computeColumn(line, matcher.start(), 1);
+				int column = ColumnUtils.computeLength(line, matcher.start(), 1);
 				boolean end = matcher.end() == line.length();
 				
 				switch (spaces.length()) {

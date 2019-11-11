@@ -4,7 +4,7 @@ public class ColumnUtils {
 	
 	public static final int TAB_SIZE = 4;
 	
-	public static final int computeColumn(String line, int until, int offset) {
+	public static final int computeLength(String line, int until, int offset) {
 		int column = 0;
 		
 		for (int index = 0; index < until && index < line.length(); index++) {

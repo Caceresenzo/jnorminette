@@ -26,7 +26,7 @@ public class AlignementRule extends AbstractRule {
 			String line = lines.get(index);
 			
 			RegexUtils.forAllMatches(PROTOTYPES_RETURN_TYPES_PATTERN, line, (matcher) -> {
-				int column = ColumnUtils.computeColumn(line, matcher.end(), 0);
+				int column = ColumnUtils.computeLength(line, matcher.end(), 0);
 				
 				columns.add(column);
 			});
