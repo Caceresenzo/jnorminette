@@ -25,12 +25,19 @@ public class RuleManager {
 		initialize();
 	}
 	
+	/** Initialize the {@link RuleManager}. */
 	private void initialize() {
 		registerRule(new AlignementRule());
 		registerRule(new ColumnLengthRule());
 		registerRule(new CommaRule());
 	}
 	
+	/**
+	 * Register a {@link IRule rule}.
+	 * 
+	 * @param rule {@link IRule Rule} to register.
+	 * @return Weather or not the rule registred replaced another rule with the same name.
+	 */
 	public boolean registerRule(IRule rule) {
 		boolean replaced = rules.containsKey(rule.getName());
 		

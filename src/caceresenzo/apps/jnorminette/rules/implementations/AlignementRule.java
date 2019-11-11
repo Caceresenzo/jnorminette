@@ -14,6 +14,7 @@ public class AlignementRule extends AbstractRule {
 	/* Patterns */
 	public static final Pattern PROTOTYPES_RETURN_TYPES_PATTERN = Pattern.compile("^(?:static )*(?:[\\w\\d_]+)([ \\t]+)", Pattern.MULTILINE);
 
+	/* Constructor */
 	public AlignementRule() {
 		super("CheckAlignement");
 	}
@@ -40,7 +41,6 @@ public class AlignementRule extends AbstractRule {
 				
 				if (firstValue != aValue) {
 					notifyError("global scope bad align");
-					System.out.println(columns);
 					break ;
 				}
 			}

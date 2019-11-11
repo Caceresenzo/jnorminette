@@ -4,10 +4,12 @@ import caceresenzo.apps.jnorminette.rules.IRule;
 
 public class NorminetteError implements INorminetteErrorFormatter {
 	
+	/* Variables */
 	private final IRule rule;
 	private final String message;
 	private final int line, column;
 	
+	/* Constructor */
 	public NorminetteError(IRule rule, String message, int line, int column) {
 		this.rule = rule;
 		this.message = message;
@@ -15,10 +17,18 @@ public class NorminetteError implements INorminetteErrorFormatter {
 		this.column = column;
 	}
 	
+	/** @return A formatted representation of this {@link NorminetteError}. */
 	public String format() {
 		return this.format(this);
 	}
 	
+	/**
+	 * Format this {@link NorminetteError} with a custom {@link INorminetteErrorFormatter formatter}.
+	 * 
+	 * @param formatter
+	 *            Custom formatter.
+	 * @return A formatted representation.
+	 */
 	public String format(INorminetteErrorFormatter formatter) {
 		return formatter.format(this);
 	}
@@ -62,18 +72,22 @@ public class NorminetteError implements INorminetteErrorFormatter {
 		return stringBuilder.toString();
 	}
 	
+	/** @return {@link NorminetteError}'s source {@link IRule rule} that created this instance. */
 	public IRule getRule() {
 		return rule;
 	}
-	
+
+	/** @return {@link NorminetteError}'s message. */
 	public String getMessage() {
 		return message;
 	}
-	
+
+	/** @return {@link NorminetteError}'s error line (if any). */
 	public int getLine() {
 		return line;
 	}
-	
+
+	/** @return {@link NorminetteError}'s error column (if any). */
 	public int getColumn() {
 		return column;
 	}
