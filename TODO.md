@@ -38,7 +38,7 @@
 | (Check) MultipleSpaces                           |                    |
 | (Check) NamedParameters                          |                    |
 | (Check) NestedTernary                            |                    |
-| (Check) NoArgFunction                            |                    |
+| (Check) NoArgFunction                            | Done               |
 | (Check) NumberOfLine                             |                    |
 | (Check) NumberOfVariables                        |                    |
 | (Check) OneInstructionPerLine                    |                    |
