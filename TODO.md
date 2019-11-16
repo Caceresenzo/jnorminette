@@ -1,57 +1,57 @@
-| Rule                                             | Status   |
-| ------------------------------------------------ | -------- |
-|CheckInclude                                      |          |
-|CheckTypePrefixName                               |          |
-|CheckOneInstructionPerLine                        |          |
-|CheckTernaryOperator                              |          |
-|CheckPreprocessorIndentation                      |          |
-|CheckIncludesBeforeFirstInstruction               |          |
-|CheckBlock                                        |          |
-|CheckForbiddenKeyword                             |          |
-|CheckKeywordSpacing                               |          |
-|CheckAlignement                                   |          |
-|CheckMultipleSpaces                               |          |
-|CheckNamedParameters                              |          |
-|CheckReturnParentheses                            |          |
-|CheckIndentationMultiline                         |          |
-|CheckCommentsFormat                               |          |
-|CheckIndentationInsideFunction                    |          |
-|CheckOperatorSpacing                              |          |
-|CheckForbiddenSourceHeader                        |          |
-|CheckMultipleEmptyLines                           |          |
-|CheckDefine                                       |          |
-|CheckUnaryOperator                                |          |
-|CheckBracketSpacing                               |          |
-|CheckFilename                                     |          |
-|CheckParametersNumber                             |          |
-|CheckControlStructure                             |          |
-|CheckMultipleAssignation                          |          |
-|CheckFunctionSpacing                              |          |
-|CheckFunctionNumber                               |          |
-|CheckNestedTernary                                |          |
-|CheckBeginningOfLine                              |          |
-|CheckDeclarationCount                             |          |
-|CheckNumberOfLine                                 |          |
-|CheckCase                                         |          |
-|CheckDoubleInclusion                              |          |
-|CheckTypeDeclarationSpacing                       |          |
-|CheckCallSpacing                                  |          |
-|CheckDeclarationPlacement                         |          |
-|CheckSeparationChar                               |          |
-|CheckTopCommentHeader                             |          |
-|CheckElseIf                                       |          |
-|CheckNoArgFunction                                |          |
-|CheckGlobalTypePrefixName                         |          |
-|CheckEmptyLine                                    |          |
-|CheckVla                                          |          |
-|CheckCppComment                                   |          |
-|CheckSpaceBetweenFunctions                        |          |
-|CheckArgumentSpacing                              |          |
-|CheckEndOfLine                                    |          |
-|CheckColumnLength                                 |          |
-|CheckNumberOfVariables                            |          |
-|CheckComma                                        |          |
-|CheckParentSpacing                                |          |
-|CheckCommentsPlacement                            |          |
-|CheckDeclarationInstanciation                     |          |
-|CheckIndentationOutsideFunction                   |          |
+| Rule                                             | Status             |
+| ------------------------------------------------ | ------------------ |
+| (Check) Alignement                               | Parcial            |
+| (Check) ArgumentSpacing                          |                    |
+| (Check) BeginningOfLine                          |                    |
+| (Check) Block                                    |                    |
+| (Check) BracketSpacing                           |                    |
+| (Check) CallSpacing                              |                    |
+| (Check) Case                                     |                    |
+| (Check) ColumnLength                             | Done               |
+| (Check) Comma                                    | Done               |
+| (Check) CommentsFormat                           |                    |
+| (Check) CommentsPlacement                        |                    |
+| (Check) ControlStructure                         |                    |
+| (Check) CppComment                               |                    |
+| (Check) DeclarationCount                         |                    |
+| (Check) DeclarationInstanciation                 |                    |
+| (Check) DeclarationPlacement                     |                    |
+| (Check) Define                                   |                    |
+| (Check) DoubleInclusion                          |                    |
+| (Check) ElseIf                                   |                    |
+| (Check) EmptyLine                                |                    |
+| (Check) EndOfLine                                |                    |
+| (Check) Filename                                 |                    |
+| (Check) ForbiddenKeyword                         |                    |
+| (Check) ForbiddenSourceHeader                    |                    |
+| (Check) FunctionNumber                           |                    |
+| (Check) FunctionSpacing                          |                    |
+| (Check) GlobalTypePrefixName                     |                    |
+| (Check) Include                                  |                    |
+| (Check) IncludesBeforeFirstInstruction           |                    |
+| (Check) IndentationInsideFunction                |                    |
+| (Check) IndentationMultiline                     |                    |
+| (Check) IndentationOutsideFunction               |                    |
+| (Check) KeywordSpacing                           |                    |
+| (Check) MultipleAssignation                      |                    |
+| (Check) MultipleEmptyLines                       |                    |
+| (Check) MultipleSpaces                           |                    |
+| (Check) NamedParameters                          |                    |
+| (Check) NestedTernary                            |                    |
+| (Check) NoArgFunction                            |                    |
+| (Check) NumberOfLine                             |                    |
+| (Check) NumberOfVariables                        |                    |
+| (Check) OneInstructionPerLine                    |                    |
+| (Check) OperatorSpacing                          |                    |
+| (Check) ParametersNumber                         |                    |
+| (Check) ParentSpacing                            |                    |
+| (Check) PreprocessorIndentation                  |                    |
+| (Check) ReturnParentheses                        |                    |
+| (Check) SeparationChar                           |                    |
+| (Check) SpaceBetweenFunctions                    |                    |
+| (Check) TernaryOperator                          |                    |
+| (Check) TopCommentHeader                         |                    |
+| (Check) TypeDeclarationSpacing                   |                    |
+| (Check) TypePrefixName                           |                    |
+| (Check) UnaryOperator                            |                    |
+| (Check) Vla                                      |                    |
