@@ -12,6 +12,7 @@ import caceresenzo.apps.jnorminette.rules.implementations.CommaRule;
 import caceresenzo.apps.jnorminette.rules.implementations.MultipleAssignationRule;
 import caceresenzo.apps.jnorminette.rules.implementations.NoArgFunctionRule;
 import caceresenzo.apps.jnorminette.rules.implementations.OneInstructionPerLineRule;
+import caceresenzo.apps.jnorminette.rules.implementations.ReturnParenthesesRule;
 import caceresenzo.apps.jnorminette.rules.implementations.TopCommentHeaderRule;
 
 public class RuleManager {
@@ -37,6 +38,7 @@ public class RuleManager {
 		registerRule(new MultipleAssignationRule());
 		registerRule(new NoArgFunctionRule());
 		registerRule(new OneInstructionPerLineRule());
+		registerRule(new ReturnParenthesesRule());
 		registerRule(new TopCommentHeaderRule());
 	}
 	

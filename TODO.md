@@ -46,7 +46,7 @@
 | (Check) ParametersNumber                         |                    |
 | (Check) ParentSpacing                            |                    |
 | (Check) PreprocessorIndentation                  |                    |
-| (Check) ReturnParentheses                        |                    |
+| (Check) ReturnParentheses                        | Done               |
 | (Check) SeparationChar                           |                    |
 | (Check) SpaceBetweenFunctions                    |                    |
 | (Check) TernaryOperator                          |                    |
