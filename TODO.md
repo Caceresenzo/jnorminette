@@ -41,7 +41,7 @@
 | (Check) NoArgFunction                            | Done               |
 | (Check) NumberOfLine                             |                    |
 | (Check) NumberOfVariables                        |                    |
-| (Check) OneInstructionPerLine                    |                    |
+| (Check) OneInstructionPerLine                    | Done               |
 | (Check) OperatorSpacing                          |                    |
 | (Check) ParametersNumber                         |                    |
 | (Check) ParentSpacing                            |                    |
