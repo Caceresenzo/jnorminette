@@ -12,7 +12,7 @@ import caceresenzo.apps.jnorminette.utils.RegexUtils;
 public class AlignementRule extends AbstractRule {
 	
 	/* Patterns */
-	public static final Pattern PROTOTYPES_RETURN_TYPES_PATTERN = Pattern.compile("^(?:static )*(?:[\\w\\d_]+)([ \\t]+)", Pattern.MULTILINE);
+	public static final Pattern PROTOTYPES_RETURN_TYPES_PATTERN = Pattern.compile("^(?:static )*(?:[\\w\\d_]+)([*]*)([ \\t]+)", Pattern.MULTILINE);
 
 	/* Constructor */
 	public AlignementRule() {
