@@ -17,7 +17,7 @@ public class MultipleAssignationRule extends AbstractRule {
 		for (int index = 0; index < lines.size(); index++) {
 			int lineNumber = index + 1;
 			String line = lines.get(index);
-			String[] split = line.replace("==", "").split("=");
+			String[] split = line.split(" = ");
 			
 			if (split.length > 2) {
 				notifyError("Multiple affectation", lineNumber);
