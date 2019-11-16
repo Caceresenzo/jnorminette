@@ -9,6 +9,7 @@ import caceresenzo.apps.jnorminette.rules.errors.NorminetteError;
 import caceresenzo.apps.jnorminette.rules.implementations.AlignementRule;
 import caceresenzo.apps.jnorminette.rules.implementations.ColumnLengthRule;
 import caceresenzo.apps.jnorminette.rules.implementations.CommaRule;
+import caceresenzo.apps.jnorminette.rules.implementations.MultipleAssignationRule;
 import caceresenzo.apps.jnorminette.rules.implementations.TopCommentHeaderRule;
 
 public class RuleManager {
@@ -31,6 +32,7 @@ public class RuleManager {
 		registerRule(new AlignementRule());
 		registerRule(new ColumnLengthRule());
 		registerRule(new CommaRule());
+		registerRule(new MultipleAssignationRule());
 		registerRule(new TopCommentHeaderRule());
 	}
 	

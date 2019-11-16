@@ -33,7 +33,7 @@
 | (Check) IndentationMultiline                     |                    |
 | (Check) IndentationOutsideFunction               |                    |
 | (Check) KeywordSpacing                           |                    |
-| (Check) MultipleAssignation                      |                    |
+| (Check) MultipleAssignation                      | Done               |
 | (Check) MultipleEmptyLines                       |                    |
 | (Check) MultipleSpaces                           |                    |
 | (Check) NamedParameters                          |                    |
