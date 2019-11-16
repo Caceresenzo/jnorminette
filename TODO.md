@@ -50,7 +50,7 @@
 | (Check) SeparationChar                           |                    |
 | (Check) SpaceBetweenFunctions                    |                    |
 | (Check) TernaryOperator                          |                    |
-| (Check) TopCommentHeader                         |                    |
+| (Check) TopCommentHeader                         | Done               |
 | (Check) TypeDeclarationSpacing                   |                    |
 | (Check) TypePrefixName                           |                    |
 | (Check) UnaryOperator                            |                    |
